@@ -1,4 +1,4 @@
-# Hello There'!'
+# Hello There!
 
 I'm Jose Luis Garcia Linares and this is the solution to the task Coding Task – Data Feed.
 
@@ -23,4 +23,4 @@ data from a csv file. The database from SQLite is created in the path written in
 All errors should go into the logs/error.log file. And there's also a test file for the Processor.php file with some cases.
 As Libraries I've used phpunit/phpunit for the test, and league/csv for the reading of a csv text file.
 
-For any questions or doubts, please don't hesitate to contact me at [jlgarlinares@gmail.com](mailto:jlgarlinares@gmail.com)
+For any questions or doubts, please don't hesitate to contact me at jlgarlinares@gmail.com
