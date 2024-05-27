@@ -1,0 +1,26 @@
+# Hello There'!'
+
+I'm Jose Luis Garcia Linares and this is the solution to the task Coding Task – Data Feed.
+
+## Goal
+
+We would like to see a command-line program that should process a local XML file (feed.xml)
+and push the data of that XML file to a DB of your choice (e.g., SQLite)
+You are free to use any library or framework you need or feel comfortable with. You have a
+free choice of tools. Please use PHP!
+
+## Specifications
+
+1. The program should be easily extendable, e.g., we could use different data storage to
+read data from or to push data to. This should be configurable.
+2. Errors should be written to a logfile
+3. The application should be tested.
+
+It was a very interesting task, and I enjoyed quite a bit doing it. I made it so that its possible to take
+the xml file to either a SQLite database or a MySql one with options from the terminal, also being able to take the
+data from a csv file. The database from SQLite is created in the path written in config.ini
+
+All errors should go into the logs/error.log file. And there's also a test file for the Processor.php file with some cases.
+As Libraries I've used phpunit/phpunit for the test, and league/csv for the reading of a csv text file.
+
+For any questions or doubts, please don't hesitate to contact me at [jlgarlinares@gmail.com](mailto:jlgarlinares@gmail.com)
